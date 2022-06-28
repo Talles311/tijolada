@@ -22,7 +22,6 @@
  }
 
  html, body {
-    min-height: 100vh;
     background-color: rgba(51, 21, 21, 0.781);
     font-family: var(--fonte-padrao);
 }
@@ -50,10 +49,13 @@ nav a {
     text-decoration: none;
     font-weight: normal;
     padding: 30px;
+    bac
 }
 
-nav a:hover {
-    color: #917c12; 
+nav > a:hover {
+    transition-duration: ;
+    color: #917c12;
+     
 }
 
 main {
